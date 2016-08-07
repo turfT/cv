@@ -1,0 +1,123 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% "ModernCV" CV and Cover Letter
+% LaTeX Template
+% Version 1.2 (25/3/16)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com) with modifications by:
+% Vel (vel@latextemplates.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same 
+% directory as this .tex file. These files provide the resume style and themes 
+% used for structuring the document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+
+\moderncvstyle{casual} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+
+\usepackage[scale=0.75]{geometry} % Reduce document margins
+%\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\firstname{Liang} % Your first name
+\familyname{Hou} % Your last name
+
+% All information in this block is optional, comment out any lines you don't need
+\title{\textsc{github} :https://github.com/turfT}
+%\address{github:https://github.com/turfT}{}
+%\mobile{}
+\phone{(+86) 15919174939}
+\email{216010022@cuhk.edu.cn}
+%\homepage{staff.org.edu/~jsmith}{staff.org.edu/$\sim$jsmith} % The first argument is the url for the clickable link, the second argument is the url displayed in the template - this allows special characters to be displayed such as the tilde in this example
+%\extrainfo{additional information}
+%\photo[70pt][0.4pt]{pictures/picture} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
+%\quote{"A witty and playful quotation" - John Smith}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	COVER LETTER
+%----------------------------------------------------------------------------------------
+
+% To remove the cover letter, comment out this entire block
+
+
+
+%----------------------------------------------------------------------------------------
+%	CURRICULUM VITAE
+%----------------------------------------------------------------------------------------
+
+\makecvtitle % Print the CV title
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+\cventry{2016--2018}{Master of Science in Financial Engineering}{The Chinese University of Hong Kong}{Shenzhen}{(pending)}{} 
+\cventry{2011--2016}{Bachelor of Financial Mathematics}{Beijing Normal University-Hong Kong Bapist
+	University International College(UIC)}{}{\textit{GPA -- 3.3}}{First Class Honours, Dean List for 4 semseters}  % Arguments not required can be left empty
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Experience}
+\cventry{2016.3--2016.7}{\textsc{Python} and Spark coder}{\textsc{Travel Tao}}{Zhuhai}{}{
+\begin{itemize}
+\item  Maintained the Databases, about 4000 daily active users, and total 45000 users in distributed server and generated daily statistical report.  
+\item  Data preprocessing, especially, transferring the GPS data into geographic information
+\item  Data Visualization with Echart and matplotlib-basemap(Ptyhon), like user thermodynamic chart.
+\end{itemize}}
+\cvitem{2011.3--2013.12}{Part-time librarian in both circulation desk and catalogue for 2 years}
+
+
+%----------------------------------------------------------------------------------------
+%	AWARDS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Projects \& Award}
+
+\cvitem{2016.2 \& 2015.2 }{The Mathematical Contest in Modeling(MCM) Honorable Mentions}
+\cvitem{2015.10}{ Random forest algorithm and its application on annual reports analysis, Final year
+	project}
+\cvitem{2015}{Valuing of Callable Bond with Constant Volatility in Binomial Vasicek Model}
+\cvitem{2015.3}{Financial Risk Management Report on Apple Inc VaR with Different approach}
+\cvitem{2014.2}{Time Series Analysis(arima) for Nikkei 225 index}
+
+%----------------------------------------------------------------------------------------
+%	COMPUTER SKILLS SECTION
+%----------------------------------------------------------------------------------------
+\section{Skills}
+\cvitem{English}{TOEFL 90 scores, adapted in english-taught college and able to work in English
+	environment}
+\cvitem{Intermediate}{ \LaTeX, Mathemathica, Linux, SPSS, \textsc{clojure} and \textsc{C++}}
+\cvitem{Advanced}{\textsc{python}, \textsc{R}, Spark}
+
+%----------------------------------------------------------------------------------------
+%	COMMUNICATION SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\end{document}
